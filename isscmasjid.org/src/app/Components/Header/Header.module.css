@@ -1,0 +1,114 @@
+.headerSection {
+  background-attachment: fixed;
+  background-image: url("../../../../public/images/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.logoContainer {
+  margin-right: 1rem;
+  margin-bottom: -5px;
+}
+
+.logo {
+  width: 140px;
+  height: auto;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleText {
+  margin-bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: justify;
+}
+
+.titleText:after {
+  display: inline-block;
+  width: 100%;
+}
+
+.inTheNameOfAllah {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.arabicTitle {
+  font-size: 32px;
+}
+
+@supports (-moz-appearance: none) {
+  .arabicTitle {
+    font-size: 2.5rem;
+  }
+}
+
+.englishTitle {
+  font-size: 1.8rem;
+}
+
+.tagline {
+  font-size: 1.03rem;
+}
+
+@media only screen and (max-width: 1025px) {
+
+  .headerSection {
+  background-attachment: scroll;
+  height: 10rem;
+}
+
+.titleText {
+  margin-bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.inTheNameOfAllah {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.arabicTitle {
+  font-size: 1.3rem;
+}
+
+.englishTitle {
+  font-size: 1.2rem;
+}
+
+.tagline {
+  font-size: 0.68rem;
+}
+
+.logoContainer {
+  margin-right: 0rem;
+  margin-bottom: -5px;
+}
+
+  .logo {
+  width: 80px;
+  height: auto;
+}
+
+}

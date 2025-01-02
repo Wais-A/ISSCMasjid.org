@@ -1,0 +1,44 @@
+.homeMain {
+  font-family: serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.homeContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--spacing);
+}
+
+.sidebarSection {
+  width: 50%;
+}
+
+.contentSection {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+@media only screen and (max-width: 1025px) {
+  .homeContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .contentSection {
+    padding: 1rem;
+  }
+  .sidebarSection {
+    width: 80%;
+  }
+
+  .sectionTitle {
+    font-size: rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}

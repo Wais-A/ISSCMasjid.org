@@ -1,0 +1,113 @@
+.navContainer {
+  background-color: #28508d;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.navInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menuItem {
+  position: relative;
+  height: 100%;
+}
+
+.menuLink {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.menuLink:hover {
+  color: #bfdbfe;
+}
+
+.menuItem:hover > .submenu,
+.submenuItem:hover > .nestedSubmenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #28508d;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+  z-index: 50;
+}
+
+.nestedSubmenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 200px;
+  background-color: #28508d;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-10px);
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+  z-index: 50;
+}
+
+.submenuItem {
+  position: relative;
+  width: 100%;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .navList {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .submenu,
+  .nestedSubmenu {
+    position: static;
+    box-shadow: none;
+    padding-left: 1rem;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none;
+  }
+
+  .menuItem:hover > .submenu,
+  .submenuItem:hover > .nestedSubmenu {
+    display: block;
+  }
+
+  .menuItem {
+    width: 100%;
+  }
+
+  .menuLink {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

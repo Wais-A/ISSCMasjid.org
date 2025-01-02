@@ -1,0 +1,40 @@
+.contentContainer {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    width: 91.666667%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.announcementsSection {
+    /* Additional styles for announcements, if any */
+}
+
+.updatesSection {
+    margin-top: 3rem;
+}
+
+.sectionTitle {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.titleDivider {
+    margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 1025px) {
+
+  .sectionTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
