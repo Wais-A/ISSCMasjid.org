@@ -1,0 +1,28 @@
+/* [project]/src/app/Components/SideBar/SideBar.module.css [app-client] (css) */
+.SideBar-module__od6gyq__iframeContainer {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.SideBar-module__od6gyq__iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+@media only screen and (width <= 1025px) {
+  .SideBar-module__od6gyq__iframeContainer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/*# sourceMappingURL=src_app_Components_SideBar_SideBar_module_fa0d2f.css.map*/

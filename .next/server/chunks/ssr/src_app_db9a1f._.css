@@ -1,0 +1,189 @@
+/* [project]/src/app/Components/Header/Header.module.css [app-client] (css) */
+.Header-module__bPVs7G__headerSection {
+  background-attachment: fixed;
+  background-image: url("/_next/static/media/bg.12559812.png");
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Header-module__bPVs7G__headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.Header-module__bPVs7G__logoContainer {
+  margin-right: 1rem;
+  margin-bottom: -5px;
+}
+
+.Header-module__bPVs7G__logo {
+  width: 140px;
+  height: auto;
+}
+
+.Header-module__bPVs7G__textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header-module__bPVs7G__titleText {
+  margin-bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: justify;
+}
+
+.Header-module__bPVs7G__titleText:after {
+  display: inline-block;
+  width: 100%;
+}
+
+.Header-module__bPVs7G__inTheNameOfAllah {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.Header-module__bPVs7G__arabicTitle {
+  font-size: 32px;
+}
+
+@supports ((-moz-appearance: none)) {
+  .Header-module__bPVs7G__arabicTitle {
+    font-size: 2.5rem;
+  }
+}
+
+.Header-module__bPVs7G__englishTitle {
+  font-size: 1.8rem;
+}
+
+.Header-module__bPVs7G__tagline {
+  font-size: 1.03rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .Header-module__bPVs7G__headerSection {
+    background-attachment: scroll;
+    height: 10rem;
+  }
+
+  .Header-module__bPVs7G__titleText {
+    margin-bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .Header-module__bPVs7G__inTheNameOfAllah {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .Header-module__bPVs7G__arabicTitle {
+    font-size: 1.3rem;
+  }
+
+  .Header-module__bPVs7G__englishTitle {
+    font-size: 1.2rem;
+  }
+
+  .Header-module__bPVs7G__tagline {
+    font-size: .68rem;
+  }
+
+  .Header-module__bPVs7G__logoContainer {
+    margin-right: 0;
+    margin-bottom: -5px;
+  }
+
+  .Header-module__bPVs7G__logo {
+    width: 80px;
+    height: auto;
+  }
+}
+
+
+/* [project]/src/app/Components/Footer/Footer.module.css [app-client] (css) */
+.Footer-module__PLMZHW__footerSection {
+  background-attachment: fixed;
+  background-image: url("/_next/static/media/bg.12559812.png");
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+
+.Footer-module__PLMZHW__footerContent {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+@media only screen and (width <= 1025px) {
+  .Footer-module__PLMZHW__footerSection {
+    background-attachment: scroll;
+  }
+}
+
+
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__homeMain {
+  font-family: serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-module___8aEwW__homeContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--spacing);
+}
+
+.page-module___8aEwW__sidebarSection {
+  width: 50%;
+}
+
+.page-module___8aEwW__contentSection {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .page-module___8aEwW__homeContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .page-module___8aEwW__contentSection {
+    padding: 1rem;
+  }
+
+  .page-module___8aEwW__sidebarSection {
+    width: 80%;
+  }
+
+  .page-module___8aEwW__sectionTitle {
+    font-size: rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/*# sourceMappingURL=src_app_db9a1f._.css.map*/

@@ -1,0 +1,48 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__homeMain {
+  font-family: serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-module___8aEwW__homeContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--spacing);
+}
+
+.page-module___8aEwW__sidebarSection {
+  width: 50%;
+}
+
+.page-module___8aEwW__contentSection {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .page-module___8aEwW__homeContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .page-module___8aEwW__contentSection {
+    padding: 1rem;
+  }
+
+  .page-module___8aEwW__sidebarSection {
+    width: 80%;
+  }
+
+  .page-module___8aEwW__sectionTitle {
+    font-size: rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+/*# sourceMappingURL=src_app_page_module_b52d8e.css.map*/

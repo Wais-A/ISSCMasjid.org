@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/Components/SideBar/SideBar.module.css [app-client] (css module)"],"sourcesContent":["__turbopack_export_value__({\n  \"iframe\": \"SideBar-module__od6gyq__iframe\",\n  \"iframeContainer\": \"SideBar-module__od6gyq__iframeContainer\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA"}},
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///Users/wais/Library/CloudStorage/OneDrive-Personal/Projects/ISSCMasjid.org/src/app/Components/SideBar/SideBar.js"],"sourcesContent":["import styles from \"./SideBar.module.css\";\n\nexport default function SideBar() {\n  return (\n    <div className={styles.iframeContainer}>\n      <iframe className={styles.iframe}\n        src=\"https://masjidbox.com/prayer-times/islamic-society-of-schuylkill-county\"\n        title=\"Prayer Times\"\n        loading=\"lazy\" // Optimized for better performance\n      ></iframe>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAW,6JAAA,CAAA,UAAM,CAAC,eAAe;kBACpC,cAAA,8OAAC;YAAO,WAAW,6JAAA,CAAA,UAAM,CAAC,MAAM;YAC9B,KAAI;YACJ,OAAM;YACN,SAAQ,OAAO,mCAAmC;;;;;;;;;;;AAI1D"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

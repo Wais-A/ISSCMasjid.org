@@ -1,0 +1,79 @@
+/* [project]/src/app/Pages/Announcements/Announcements.module.css [app-client] (css) */
+.Announcements-module__5z9pQG__announcement {
+  padding: 1rem;
+}
+
+.Announcements-module__5z9pQG__announcementTitle {
+  font-size: 1.875rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.Announcements-module__5z9pQG__announcementDate {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+
+/* [project]/src/app/Components/HomePage/HomePage.module.css [app-client] (css) */
+.HomePage-module__WDRojq__contentContainer {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  width: 91.6667%;
+  margin: 0 auto;
+}
+
+.HomePage-module__WDRojq__section {
+  padding: 1rem;
+  box-shadow: 0 4px 6px #0000001a;
+  margin-bottom: 2rem;
+}
+
+.HomePage-module__WDRojq__announcementsSection {
+}
+
+.HomePage-module__WDRojq__updatesSection {
+  margin-top: 3rem;
+}
+
+.HomePage-module__WDRojq__sectionTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.HomePage-module__WDRojq__titleDivider {
+  margin: 0 .5rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .HomePage-module__WDRojq__sectionTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/* [project]/src/app/Pages/Khutba/Khutba.module.css [app-client] (css) */
+.Khutba-module___3jbUa__khutbaSection {
+}
+
+.Khutba-module___3jbUa__khutbaContainer {
+  padding: 1rem;
+}
+
+.Khutba-module___3jbUa__khutbaTitle {
+  font-size: 1.875rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.Khutba-module___3jbUa__khutbaDate {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+
+/*# sourceMappingURL=src_app_66149e._.css.map*/

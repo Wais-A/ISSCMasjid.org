@@ -1,0 +1,41 @@
+/* [project]/src/app/Components/HomePage/HomePage.module.css [app-client] (css) */
+.HomePage-module__WDRojq__contentContainer {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  width: 91.6667%;
+  margin: 0 auto;
+}
+
+.HomePage-module__WDRojq__section {
+  padding: 1rem;
+  box-shadow: 0 4px 6px #0000001a;
+  margin-bottom: 2rem;
+}
+
+.HomePage-module__WDRojq__announcementsSection {
+}
+
+.HomePage-module__WDRojq__updatesSection {
+  margin-top: 3rem;
+}
+
+.HomePage-module__WDRojq__sectionTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.HomePage-module__WDRojq__titleDivider {
+  margin: 0 .5rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .HomePage-module__WDRojq__sectionTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+/*# sourceMappingURL=src_app_Components_HomePage_HomePage_module_b52d8e.css.map*/

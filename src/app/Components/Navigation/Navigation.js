@@ -57,22 +57,19 @@ export default function NavigationBar() {
   };
 
   return (
-    <Navbar
+    <div className="relative">
+      <Navbar
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       height="64px"
-      position="sticky"
-      className="bg-[#28508d] text-white"
+        className="bg-[#28508d] text-white"
       maxWidth="full"
     >
-      {/* Mobile Layout */}
-      <NavbarContent className="sm:hidden flex justify-between items-center w-full">
+      <NavbarContent className="lg:hidden flex justify-between items-center w-full">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="text-white"
         />
-
-        {/* Right side - Mobile Buttons */}
         <div className="flex gap-2 w-full justify-end">
           <Button
             as={Link}
@@ -93,8 +90,10 @@ export default function NavigationBar() {
         </div>
       </NavbarContent>
 
-      {/* Desktop Navigation */}
-      <NavbarContent className="hidden sm:flex gap-4 ml-6" justify="start">
+      <NavbarContent
+        className="hidden lg:flex gap-4 ml-6 md:w-32 sm:w-20"
+        justify="start"
+      >
         <NavbarItem>
           <Link
             href="/"
@@ -138,8 +137,7 @@ export default function NavigationBar() {
         ))}
       </NavbarContent>
 
-      {/* Desktop Buttons */}
-      <NavbarContent className="hidden sm:flex gap-4" justify="end">
+      <NavbarContent className="hidden lg:flex gap-4" justify="end">
         <NavbarItem>
           <Button
             as={Link}
@@ -164,9 +162,9 @@ export default function NavigationBar() {
         </NavbarItem>
       </NavbarContent>
 
-      {/* Mobile Menu */}
-      <NavbarMenu className="bg-white pt-4 pb-20 top-[220px] overflow-y-auto max-h-[calc(100vh-220px)]">
-        <div className="px-4">
+        {isMenuOpen && (
+          <div className="absolute top-[64px] left-0 right-0 bg-white z-50 shadow-lg overflow-y-auto max-h-[calc(100vh-64px)]">
+            <div className="px-4 py-4">
           <NavbarMenuItem>
             <Link
               href="/"
@@ -208,7 +206,9 @@ export default function NavigationBar() {
             </NavbarMenuItem>
           ))}
         </div>
-      </NavbarMenu>
-    </Navbar>
+          </div>
+        )}
+      </Navbar>
+    </div>
   );
 }

@@ -1,0 +1,18 @@
+{
+  "src/app/page.js -> @/app/Components/HomePage/HomePage": {
+    "id": "src/app/page.js -> @/app/Components/HomePage/HomePage",
+    "files": [
+      "static/chunks/_54649f._.js",
+      "static/chunks/src_app_66149e._.css",
+      "static/chunks/src_app_Components_HomePage_HomePage_454d32.js"
+    ]
+  },
+  "src/app/page.js -> @/app/Components/SideBar/SideBar": {
+    "id": "src/app/page.js -> @/app/Components/SideBar/SideBar",
+    "files": [
+      "static/chunks/_1360f2._.js",
+      "static/chunks/src_app_Components_SideBar_SideBar_module_fa0d2f.css",
+      "static/chunks/src_app_Components_SideBar_SideBar_454d32.js"
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+/* [project]/src/app/Components/Header/Header.module.css [app-client] (css) */
+.Header-module__bPVs7G__headerSection {
+  background-attachment: fixed;
+  background-image: url("../media/bg.12559812.png");
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Header-module__bPVs7G__headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.Header-module__bPVs7G__logoContainer {
+  margin-right: 1rem;
+  margin-bottom: -5px;
+}
+
+.Header-module__bPVs7G__logo {
+  width: 140px;
+  height: auto;
+}
+
+.Header-module__bPVs7G__textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header-module__bPVs7G__titleText {
+  margin-bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: justify;
+}
+
+.Header-module__bPVs7G__titleText:after {
+  display: inline-block;
+  width: 100%;
+}
+
+.Header-module__bPVs7G__inTheNameOfAllah {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.Header-module__bPVs7G__arabicTitle {
+  font-size: 32px;
+}
+
+@supports ((-moz-appearance: none)) {
+  .Header-module__bPVs7G__arabicTitle {
+    font-size: 2.5rem;
+  }
+}
+
+.Header-module__bPVs7G__englishTitle {
+  font-size: 1.8rem;
+}
+
+.Header-module__bPVs7G__tagline {
+  font-size: 1.03rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .Header-module__bPVs7G__headerSection {
+    background-attachment: scroll;
+    height: 10rem;
+  }
+
+  .Header-module__bPVs7G__titleText {
+    margin-bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .Header-module__bPVs7G__inTheNameOfAllah {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .Header-module__bPVs7G__arabicTitle {
+    font-size: 1.3rem;
+  }
+
+  .Header-module__bPVs7G__englishTitle {
+    font-size: 1.2rem;
+  }
+
+  .Header-module__bPVs7G__tagline {
+    font-size: .68rem;
+  }
+
+  .Header-module__bPVs7G__logoContainer {
+    margin-right: 0;
+    margin-bottom: -5px;
+  }
+
+  .Header-module__bPVs7G__logo {
+    width: 80px;
+    height: auto;
+  }
+}
+
+
+/* [project]/src/app/Components/Footer/Footer.module.css [app-client] (css) */
+.Footer-module__PLMZHW__footerSection {
+  background-attachment: fixed;
+  background-image: url("../media/bg.12559812.png");
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+}
+
+.Footer-module__PLMZHW__footerContent {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+@media only screen and (width <= 1025px) {
+  .Footer-module__PLMZHW__footerSection {
+    background-attachment: scroll;
+  }
+}
+
+
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__homeMain {
+  font-family: serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-module___8aEwW__homeContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--spacing);
+}
+
+.page-module___8aEwW__sidebarSection {
+  width: 50%;
+}
+
+.page-module___8aEwW__contentSection {
+  width: 100%;
+  padding: 1.25rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .page-module___8aEwW__homeContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .page-module___8aEwW__contentSection {
+    padding: 1rem;
+  }
+
+  .page-module___8aEwW__sidebarSection {
+    width: 80%;
+  }
+
+  .page-module___8aEwW__sectionTitle {
+    font-size: rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/* [project]/src/app/Pages/Announcements/Announcements.module.css [app-client] (css) */
+.Announcements-module__5z9pQG__announcement {
+  padding: 1rem;
+}
+
+.Announcements-module__5z9pQG__announcementTitle {
+  font-size: 1.875rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.Announcements-module__5z9pQG__announcementDate {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+
+/* [project]/src/app/Components/HomePage/HomePage.module.css [app-client] (css) */
+.HomePage-module__WDRojq__contentContainer {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  width: 91.6667%;
+  margin: 0 auto;
+}
+
+.HomePage-module__WDRojq__section {
+  padding: 1rem;
+  box-shadow: 0 4px 6px #0000001a;
+  margin-bottom: 2rem;
+}
+
+.HomePage-module__WDRojq__announcementsSection {
+}
+
+.HomePage-module__WDRojq__updatesSection {
+  margin-top: 3rem;
+}
+
+.HomePage-module__WDRojq__sectionTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.HomePage-module__WDRojq__titleDivider {
+  margin: 0 .5rem;
+}
+
+@media only screen and (width <= 1025px) {
+  .HomePage-module__WDRojq__sectionTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+
+/* [project]/src/app/Pages/Khutba/Khutba.module.css [app-client] (css) */
+.Khutba-module___3jbUa__khutbaSection {
+}
+
+.Khutba-module___3jbUa__khutbaContainer {
+  padding: 1rem;
+}
+
+.Khutba-module___3jbUa__khutbaTitle {
+  font-size: 1.875rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.Khutba-module___3jbUa__khutbaDate {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+
+/* [project]/src/app/Components/SideBar/SideBar.module.css [app-client] (css) */
+.SideBar-module__od6gyq__iframeContainer {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.SideBar-module__od6gyq__iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+@media only screen and (width <= 1025px) {
+  .SideBar-module__od6gyq__iframeContainer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/*# sourceMappingURL=src_app_848f0c._.css.map*/
