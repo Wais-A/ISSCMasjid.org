@@ -1,0 +1,115 @@
+/* [project]/src/app/Components/Navigation/Navigation.module.css [app-client] (css) */
+.Navigation-module__vUE6Wa__navContainer {
+  background-color: #28508d;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.Navigation-module__vUE6Wa__navInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.Navigation-module__vUE6Wa__navList {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Navigation-module__vUE6Wa__menuItem {
+  position: relative;
+  height: 100%;
+}
+
+.Navigation-module__vUE6Wa__menuLink {
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.Navigation-module__vUE6Wa__menuLink:hover {
+  color: #bfdbfe;
+}
+
+.Navigation-module__vUE6Wa__menuItem:hover > .Navigation-module__vUE6Wa__submenu, .Navigation-module__vUE6Wa__submenuItem:hover > .Navigation-module__vUE6Wa__nestedSubmenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.Navigation-module__vUE6Wa__submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #28508d;
+  box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -1px #0000000f;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity .2s, visibility .2s, transform .2s;
+  z-index: 50;
+}
+
+.Navigation-module__vUE6Wa__nestedSubmenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 200px;
+  background-color: #28508d;
+  box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -1px #0000000f;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-10px);
+  transition: opacity .2s, visibility .2s, transform .2s;
+  z-index: 50;
+}
+
+.Navigation-module__vUE6Wa__submenuItem {
+  position: relative;
+  width: 100%;
+}
+
+@media (width <= 768px) {
+  .Navigation-module__vUE6Wa__navList {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Navigation-module__vUE6Wa__submenu, .Navigation-module__vUE6Wa__nestedSubmenu {
+    position: static;
+    box-shadow: none;
+    padding-left: 1rem;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none;
+  }
+
+  .Navigation-module__vUE6Wa__menuItem:hover > .Navigation-module__vUE6Wa__submenu, .Navigation-module__vUE6Wa__submenuItem:hover > .Navigation-module__vUE6Wa__nestedSubmenu {
+    display: block;
+  }
+
+  .Navigation-module__vUE6Wa__menuItem {
+    width: 100%;
+  }
+
+  .Navigation-module__vUE6Wa__menuLink {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.Navigation-module__vUE6Wa__NavBar {
+  background: green !important;
+}
+
+
+/*# sourceMappingURL=src_app_Components_Navigation_Navigation_module_9a53c5.css.map*/

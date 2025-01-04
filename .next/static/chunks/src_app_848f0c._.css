@@ -10,6 +10,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
+}
+
+.Header-module__bPVs7G__NavBarSection {
+  width: 100%;
+  height: 100%;
 }
 
 .Header-module__bPVs7G__headerContent {
@@ -74,7 +80,11 @@
 @media only screen and (width <= 1025px) {
   .Header-module__bPVs7G__headerSection {
     background-attachment: scroll;
-    height: 10rem;
+    height: 15rem;
+  }
+
+  .Header-module__bPVs7G__headerContent {
+    padding-top: 20px;
   }
 
   .Header-module__bPVs7G__titleText {
