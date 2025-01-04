@@ -395,6 +395,7 @@
   height: 600px;
   overflow: hidden;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 .SideBar-module__od6gyq__iframe {
@@ -412,6 +413,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
   }
 }
 
